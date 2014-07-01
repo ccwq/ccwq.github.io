@@ -1,0 +1,65 @@
+// It is a less file.
+@import "lessTool/tool";
+
+body{font-family: "微软雅黑" "黑体" "新宋体"; padding-bottom: 90px;}
+
+a{ text-decoration: underline;}
+
+.mainCont{
+
+}
+
+.info{
+	margin-top: 24px;
+	.indet{ margin-left: 25px;}
+	i{ position: relative; top: 2px; border-radius: 0;}
+}
+
+.intro{
+
+	ul{
+		list-style: none;
+		font-size: 0;
+		li{
+			font-size: 14px;
+			display: inline-block; width: 25%;
+			margin-bottom: 12px; margin-top: 6px;
+		}
+
+		li{ *display: inline;}
+	}
+
+	i{top: 3px; }
+
+	.itemLabel{ padding-right: 6px;}
+}
+
+//标签
+.skill{
+	h5{
+		margin-top: 21px;
+		margin-bottom: 15px;
+		position: relative;
+		left: -12px;
+	}
+	.skillLabel{
+		line-height: 3em;
+		i{
+			font-style: normal; padding:7px 14px; text-transform: capitalize;
+			.dura(300ms);
+			&:hover{
+				._alpha(85);
+			}
+			top: 0;
+			display: inline-block;
+			margin: 0 5px;
+		}
+	}
+	//>.indet>p{ margin-left: 5px;}
+	.skilllist{
+		>p{
+			//text-indent: 1em;
+			i{ display: inline-block; margin-right: 2px;}
+		}
+	}
+}
