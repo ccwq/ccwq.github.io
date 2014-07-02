@@ -11,12 +11,20 @@ a{ text-decoration: underline;}
 
 .info{
 	margin-top: 24px;
-	.indet{ margin-left: 25px;}
+	.indet{
+		@val:1.2em;
+		margin-left: 25px;
+		p{
+			text-indent: -@val;
+			padding-left:@val;
+			line-height: 1.8em;
+		}
+
+	}
 	i{ position: relative; top: 2px; border-radius: 0;}
 }
 
 .intro{
-
 	ul{
 		list-style: none;
 		font-size: 0;
@@ -62,4 +70,9 @@ a{ text-decoration: underline;}
 			i{ display: inline-block; margin-right: 2px;}
 		}
 	}
+}
+
+
+.jobHistory{
+	.year{ display: inline-block; width: 160px; text-indent: 0;}
 }

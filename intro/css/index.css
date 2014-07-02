@@ -18,6 +18,11 @@ a {
 .info .indet {
   margin-left: 25px;
 }
+.info .indet p {
+  text-indent: -1.2em;
+  padding-left: 1.2em;
+  line-height: 1.8em;
+}
 .info i {
   position: relative;
   top: 2px;
@@ -68,4 +73,9 @@ a {
 .skill .skilllist > p i {
   display: inline-block;
   margin-right: 2px;
+}
+.jobHistory .year {
+  display: inline-block;
+  width: 160px;
+  text-indent: 0;
 }
